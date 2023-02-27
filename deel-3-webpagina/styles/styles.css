@@ -1,1 +1,14 @@
-/*Schrijf hier jouw css*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.colummcontainer {
+    display: flex;
+    gap: 5em;
+}
+
+.column {
+    background-color: #C16E70;
+}
