@@ -4,18 +4,16 @@ body {
 }
 
 nav {
-    flex-basis: 15vw;
+    flex-basis: 15em;
 }
 
 div {
     display: flex;
     flex-direction: column;
-    flex-basis: 1200px;
-    /*flex: 1 1 auto;*/
 }
 
 article {
-    flex-basis: 100vw;
+    flex-grow: 1;
 }
 
 main {
@@ -30,9 +28,8 @@ header, footer {
 nav, header, footer {
     flex-grow: 0;
     flex-shrink: 0;
-    /*flex-basis: 15vw;*/
 }
 
 div, main {
-    flex: 1
+    flex: 1 0 auto;
 }

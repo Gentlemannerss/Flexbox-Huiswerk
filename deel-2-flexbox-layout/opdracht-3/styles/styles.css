@@ -9,15 +9,8 @@ body {
     flex-grow: 1;
 }
 
-header {
-    display: flex;
-    flex-basis: 60px;
-}
-
 article {
-    flex-basis: auto;
-    flex-grow: 4;
-    min-height: 40em;
+    flex-grow: 1;
 }
 
 aside {
@@ -26,13 +19,12 @@ aside {
     flex-shrink: 0;
 }
 
-footer {
+footer, header {
     flex-basis: 100px;
 }
 
 main {
     display: flex;
-    flex-direction: row;
     flex-grow: 1;
 }
 

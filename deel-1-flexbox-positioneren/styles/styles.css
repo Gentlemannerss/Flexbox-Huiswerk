@@ -10,14 +10,15 @@
 }
 
 .opdracht-2 li {
-    flex-basis: auto;
+    flex: 1;
 }
 
 .opdracht-3 ul {
     display: flex;
     flex-direction: row;
+    justify-content: center ;
     height: 100%;
-    gap: 20%
+    gap: 25%
 }
 
 .topleft {
