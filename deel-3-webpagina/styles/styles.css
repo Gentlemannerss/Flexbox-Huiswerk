@@ -1,1 +1,73 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F2F3D9;
+    color: #151E3F;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+}
+
+.navigation {
+    background-color: #030027;;
+    color: white;
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.titels {
+    margin-top: 25px;
+    text-align: center;
+    color: #030027;
+    font-weight: 900;
+}
+
+.colummcontainer {
+    display: flex;
+    gap: 5em;
+    margin: 5em;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color: #C16E70;
+    max-width: 280px;
+    height: 350px;
+    border-radius: 7px;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.column p {
+    font-size: 1em;
+    line-height: 1.5em;
+    overflow: hidden;
+}
